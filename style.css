@@ -1,0 +1,184 @@
+html {
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+}
+body {
+  background-color: rgba(126, 241, 241, 0.856); 
+}
+
+h1 {
+  color: rgb(17, 16, 16);
+  font-size: 50px;
+  font-family: Georgia;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 2.5;
+  font-family: Georgia;
+  word-spacing: 0.05em;
+  letter-spacing: 0.02em;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 16px 0;
+  font-family: Helvetica;
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+/* Header */
+
+.header {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  background-color: rgb(74, 101, 255);
+  position: fixed;
+  top: 0;
+  text-align: right;
+  width: 100%;
+  font-weight: 900;
+  z-index: 4;
+}
+
+#top,
+#About{
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+#Team{
+  padding-top: 220px;
+  margin-top: -220px;
+}
+#Join{
+  z-index: 100;
+}
+.header li {
+  display: inline-block;
+}
+
+.header a {
+  display: block;
+  color: rgb(5, 5, 5);
+  padding: 30px 20px;
+}
+
+a.home {
+  color: rgb(7, 6, 6);
+}
+
+
+/* Description Section*/
+
+.description-title{
+  text-align: left;
+  font-size: 40px;
+  font-family: Helvetica;
+}
+
+.description{
+  text-align: left;
+  font-size: 35px;
+  font-family: Helvetica;
+}
+
+#About p{
+  text-align: left;
+  font-size: 35px;
+  font-family: Helvetica;
+  margin-bottom: 200px;
+}
+#About h2 {
+  text-align: left;
+  font-size: 50px;
+  font-family: Helvetica;
+
+}
+
+/* Banner Section */
+
+.banner {
+  background-image: url("/home/arnold/Desktop/GroupWork P0W1/1.jpeg");
+  background-size: cover;
+  height: 300px;
+  width:100%;
+  padding: 250px 0;
+  margin-top: 77px;
+  text-align: center;
+  margin-left: 0px;
+  z-index: 10; 
+}
+
+
+
+.banner p {
+  border-top: 1px solid rgb(105, 223, 213);
+  border-bottom: 1px solid rgb(66, 216, 226);
+  padding: 10px;
+  color: #0e0d0d;
+  font-weight: bold;
+  line-height: 1.4;
+  font-family: "Glegoo";
+  font-size: 50px;
+}
+
+/* Editorial Sections */
+
+.editorial {
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
+  color: #4C4C4C;
+}
+
+.member{
+    /*border: 5px solid red; */
+    /*margin: 20px, center;*/
+    display : relative;
+    position: right;
+    text-align: center;
+    float: right;
+    width: 20%;
+}
+
+.explain{
+  display: relative;
+  float: left;
+  width: 60%;
+
+}
+#Team{
+  font-size: 40px;
+  font-family: Helvetica;
+  color: rgb(138, 84, 4);
+
+}
+.join{
+  text-align: center ;
+  border: solid rgb(28, 48, 221);
+  background-color: rgba(61, 64, 243, 0.986);
+  font-size: 40px;
+  background-position: right;
+  position: absolute;
+  right: 0px;
+  width: 400px;
+  z-index: 100;
+  margin-top: 300px;
+  border-radius: 50%;
+
+}
+.footer{ 
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
